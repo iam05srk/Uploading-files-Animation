@@ -9,6 +9,7 @@
 }
 
 body{
+  position: relative;
     min-height: 100vh;
 
     display: flex;
@@ -20,7 +21,7 @@ body{
 .fraim{
     position: relative;
 
-    width: 24rem;
+    width: 20rem;
     height: 91px;
 
     background: #fff;
@@ -73,8 +74,8 @@ body{
 .filesizes{
     position: absolute;
 
-    width: 15rem;
-    right: 50px;
+    width: 12rem;
+    right: 20px;
 
     display: flex;
     justify-content: space-between;
@@ -108,7 +109,7 @@ body{
   }
   @keyframes animation {
     100% {
-      width: 8rem;
+      width: 6rem;
     }
   }
   
@@ -116,10 +117,9 @@ body{
     content: "";
     position: absolute;
   
-    width: 14rem;
+    width: 12rem;
     height: 6px;
   
     background: #aa9f9f9c;
     border-radius: 15px;
   }
-
